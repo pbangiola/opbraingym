@@ -1,0 +1,44 @@
+{
+  "environment": "sandbox",
+  "live_booking_enabled": false,
+  "currency": "usd",
+  "timezone": "America/Chicago",
+  "location": {
+    "name": "Brain Gym garage",
+    "address": "1117 S East Ave, Oak Park, IL 60304"
+  },
+  "audience": "adults only",
+  "capacity_per_session": 10,
+  "places_per_checkout": 1,
+  "sessions": [
+    {
+      "id": "woodcarving-2026-11-02",
+      "name": "Small woodcarving 101 — Nov 2, 2026",
+      "starts_at": "2026-11-02T19:00:00-06:00",
+      "ends_at": "2026-11-02T21:00:00-06:00",
+      "price_cents": 100,
+      "materials": "provided",
+      "pickup": null,
+      "product_id": "prod_VVv2p1coP0iBp1",
+      "price_id": "price_1UUtCEDjvrCsrk13MvwmLv6D",
+      "payment_link_id": "plink_1UUtCnDjvrCsrk13RzCdGO9l",
+      "test_checkout_url": "https://book.stripe.com/test_9B68wPbKV01YdfDftLgA800"
+    },
+    {
+      "id": "cutting-board-2026-11-06",
+      "name": "Make your own cutting board — Nov 6, 2026",
+      "starts_at": "2026-11-06T19:00:00-06:00",
+      "ends_at": "2026-11-06T21:00:00-06:00",
+      "price_cents": 2000,
+      "materials": "entire $20 price is for materials",
+      "pickup": {
+        "date": "2026-11-07",
+        "time": "to be arranged"
+      },
+      "product_id": "prod_VVv26ViAW7740o",
+      "price_id": "price_1UUtCIDjvrCsrk13R40kGlLW",
+      "payment_link_id": "plink_1UUtCqDjvrCsrk13IcwebNvh",
+      "test_checkout_url": "https://book.stripe.com/test_4gMcN56qB01YejHftLgA801"
+    }
+  ]
+}
